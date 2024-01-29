@@ -20,7 +20,7 @@ const Hero = () => {
           </h1>
          
           <p className={`${styles.heroSubText} mt-2 text-white-100` }>
-          A qualified and professional Full stack developer with 2+ years of experience in Web application development with a proven knowledge in JavaScript and seeks a position as a full stack developer. <br className='sm:block hidden' />
+          A qualified and professional Full stack developer with 3+ years of experience in Web application development with a proven knowledge in JavaScript and seeks a position as a full stack developer. <br className='sm:block hidden' />
           </p>
            
          

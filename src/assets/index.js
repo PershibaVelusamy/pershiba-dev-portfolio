@@ -37,7 +37,8 @@ import redis from './redis.png';
 import express from './express.png';
 import antd from './antd.png';
 import bootstrap from './bootstrap.png';
-
+import elred from './elred_io_logo.jpeg';
+import elredadmin from './elredAdmin.png'
 export {
   logo,
   backend,
@@ -76,5 +77,7 @@ export {
   worktual,
   vectone,
   memories,
-  Ecomerce
+  Ecomerce,
+  elred,
+  elredadmin
 };

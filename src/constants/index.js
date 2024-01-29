@@ -31,7 +31,9 @@ import {
   socket,
   redis,
   antd,
-  bootstrap
+  bootstrap,
+  elred,
+  elredadmin
 } from "../assets";
 
 export const navLinks = [
@@ -144,6 +146,13 @@ const ExperiencePoint = [
 
 
 const experiences = [
+
+
+
+
+
+
+
   {
     title: "UCAAS - Worktual",
     company_name: "Trainee Full stack developer",
@@ -181,6 +190,8 @@ const experiences = [
       },
     ]
   },
+
+
   {
     title: "Intelligent Virtual Assistant",
     company_name: "Full stack developer",
@@ -345,7 +356,53 @@ const experiences = [
         color: "pink-text-gradient",
       }
     ]
+  },  {
+    title: "elRed-Admin-portal",
+    company_name: "React Developer",
+    description: "Application to manage the user accounts of the elred application",
+    icon: elredadmin,
+    iconBg: "#383E56",
+    date: "Dec 2023 - Jan 2024",
+    points: [
+      "Developed a responsive admin portal using React and bootstrap for the fornt-end",
+      "Knowledge of UI frameworks like Bootstrap.",
+      "Recorded Bugs and fixed it by unit testing after every deployment and documented Unit Test Results.",
+      "Performed UAT for every release"],
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "blue-text-gradient",
+      }
+    ]
   },
+  {
+    title: "elRed",
+    company_name: "React Developer",
+    description: "elRed is a Social media product which help us collaborate beyond our network.",
+    icon: elred,
+    iconBg: "#383E56",
+    date: "August 2023 - Present",
+    points: [
+      "Developed a social media platform using React and bootstrap for the fornt-end",
+      "Knowledge of UI frameworks like Bootstrap.",
+      "Recorded Bugs and fixed it by unit testing after every deployment and documented Unit Test Results.",
+      "Performed UAT for every release"
+    ],
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "blue-text-gradient",
+      }
+    ]
+  }
 ];
 
 
