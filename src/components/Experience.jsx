@@ -4,9 +4,9 @@ import {motion}from 'framer-motion'
 import 'react-vertical-timeline-component/style.min.css';
 import { styles } from '../styles';
 import { experiences ,ExperiencePoint} from '../constants';
-import { SectionWrapper } from '../hoccomponent/sectionWrapper'
   import { textVariant } from '../utils/motion';
 import {ExperienceCard} from './ExperienceCard'
+import { SectionWrapper } from '../hoccomponent/SectionWrapper';
 const Experience = () => {
   return (
     <>

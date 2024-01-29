@@ -2,10 +2,11 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { SectionWrapper } from '../hoccomponent/sectionWrapper'
+
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { ProjectCard } from "./ProjectCard";
+import { SectionWrapper } from "../hoccomponent/SectionWrapper";
 
 const Works = () => {
   return (

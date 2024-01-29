@@ -4,8 +4,9 @@ import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
-import { SectionWrapper } from '../hoccomponent/sectionWrapper'
 import { slideIn } from "../utils/motion";
+import { SectionWrapper } from "../hoccomponent/SectionWrapper";
+
 
 const Contact = () => {
   const formRef = useRef();

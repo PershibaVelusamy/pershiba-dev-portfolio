@@ -1,10 +1,11 @@
 import React from 'react'
-import { SectionWrapper } from '../hoccomponent/sectionWrapper'
+
 import { technologies } from '../constants';
 import { BallCanvas } from './canvas';
 import {motion}from 'framer-motion'
 import { styles } from '../styles';
 import { textVariant } from '../utils/motion';
+import { SectionWrapper } from '../hoccomponent/SectionWrapper';
 const Tech = () => {
   const icons = Object.values(technologies).map((technology) => technology.icon);
   return (
