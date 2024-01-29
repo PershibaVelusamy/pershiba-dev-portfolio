@@ -5,7 +5,8 @@ import {styles} from '../styles'
 import { services } from '../constants'
 import {fadeIn,textVariant} from '../utils/motion'
 import ServiceCard from './ServiceCard'
-import { SectionWrapper } from '../hoccomponent/sectionWrapper'
+import { SectionWrapper } from '../hoccomponent/SectionWrapper'
+
 
 
 
