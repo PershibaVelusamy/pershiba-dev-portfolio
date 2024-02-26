@@ -4,6 +4,8 @@ import {  useGLTF } from "@react-three/drei";
 
 export const Computers = ({isMobile}) => {
     
+ 
+
    const computer = useGLTF("./desktop_pc/scene.gltf");
     console.log(computer,"computer")
     return (

@@ -22,14 +22,18 @@ const ComputersCanvas = ({ref}) => {
 
     // Add the callback function as a listener for changes to the media query
     mediaQuery.addEventListener("change", handleMediaQueryChange);
-
+    addEventListener("webglcontextlost", (event) => {
+      setInitialized(false);
+    }
+    );
     // Remove the listener when the component is unmounted
     return () => {
       mediaQuery.removeEventListener("change", handleMediaQueryChange);
     };
+   
   }, []);
 
-  const [initialized, setInitialized] = useState(false)
+ const [initialized, setInitialized] = useState(false)
 
   useEffect(() => {
       if (!initialized) {
@@ -37,11 +41,10 @@ const ComputersCanvas = ({ref}) => {
       }
   }, [initialized]);
 
+  
   if (!initialized) {
       return <div></div>
   }
-
-
   return (
     <Canvas
       frameloop='demand'
